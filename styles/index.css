@@ -19,6 +19,14 @@ form {
   max-width: 50%;
 }
 
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--black);
+  font-weight: bold;
+  text-align: center;
+}
+
 label {
   font-weight: bold;
   display: block;
@@ -50,4 +58,20 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: var(--color2);
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: var(--black);
+  text-align: center;
+}
+
+p a {
+  color: var(--color2);
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
 }
